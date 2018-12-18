@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "electron-app": "^1.0.0",
+    "foreman": "^3.0.1",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-scripts": "2.1.1"
@@ -14,7 +15,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "electron": "electron .",
-    "electron-dev": "ELECTRON_START_URL=http://localhost:3000 electron ."
+    "dev": "nf start"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -26,5 +27,5 @@
     "not op_mini all"
   ],
   "main": "src/electron-main.js",
-  "homepage": "./",
+  "homepage": "./"
 }
